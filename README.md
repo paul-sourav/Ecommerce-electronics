@@ -4,7 +4,7 @@
 ## Demo
 This is a simple e-commerce web application built using the MERN (MongoDB, Express.js, React, Node.js) stack. It allows users to browse and purchase products online.
 
-![Demo](./ecommerce1.png);
+![Demo](./ecommerce1.png)
 
 - [MongoDB](https://www.mongodb.com/)
 - [Express.js](https://expressjs.com/)
