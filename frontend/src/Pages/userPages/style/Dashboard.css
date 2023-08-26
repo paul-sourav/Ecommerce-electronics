@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+.dashboard{
+    background-color:#353399;
+    color:white;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    font-family: 'Quicksand', sans-serif;
+    flex-direction: column;
+}
+/* .dashboard-btn{
+     display: flex;
+     flex-direction:row;
+} */
+.dashboard-btn button{
+    /* background-color: slateblue; */
+    border:none;
+    border-radius: 1.2rem;
+    margin:0.3rem 0.3rem;
+    background-color: #00FA9A;
+    color:#393b3b;
+    padding: 0.3rem 1.2rem;
+}
+.dashboard-btn button:hover{
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.418);
+}
+.dashboard-btn span{
+    font-size: large;
+}
+.dashboard-item{
+    text-align: center;
+}
+.dashboard-item .saved-address{
+    background-color: #ffffff5d;
+    border-radius: 1.2rem;
+    width:18rem;
+    padding: 0.8rem;
+    margin:0.5rem;
+}
+.dashboard-item .saved-address button{
+    background-color: #00FA9A;
+    padding: 0.5rem 0.8rem;
+    width:50%;
+    cursor: pointer;
+    /* margin: 0 0.5rem  ; */
+}
+.saved-address button:hover{
+    background-color: #00FA9A;
+}
+.dashboard-item .new-address{
+    padding: 0.8rem ;
+    border-radius: 1.2rem;
+    background-color: #00FA9A;
+}

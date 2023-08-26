@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+.form{
+    width: 100%;
+    height: 92vh;
+    position: absolute;
+    z-index:0;
+    display: flex;
+    /* background-color: white; */
+    justify-content:space-around;
+    font-family: 'Open Sans', sans-serif;
+}
+.bg-image{
+    width: 50%;
+    height: 100%;
+    background-image:url('../../../assets/login.png');
+    background-position:center;
+    background-size: cover;
+}
+.bg-image2{
+    width: 50%;
+    height: 100%;
+    background-image:url('../../../assets/signin.png');
+    background-position:center;
+    background-size: cover;
+    border-color: aqua;
+    border: 1px rgb(16, 215, 16);
+}
+.form form{
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    text-align:left;
+    flex-direction: column;
+    justify-content: center;
+}
+.form form h1{
+    color: #008a60;
+}
+.form form input{
+    padding:0.5rem  0;
+    border:none;
+    background: transparent;
+    border-bottom: 2px solid black;
+    margin-bottom:0.5rem;
+}
+#name,#email,#phone,#password{
+    width: 96%;
+}
+.submit-btn{
+    background-color: #008a60;
+    font-size: large;
+    color: white;
+    border:none;
+    width: 96%;
+    padding: 0.8rem 1.4rem;
+    margin-top:1rem;
+    box-shadow: 0.2rem 0.3rem 0.5rem rgb(165, 165, 165);
+}
+.submit-btn:hover{
+    background-color: #138764;
+    box-shadow: 0.2rem 0.3rem 0.5rem rgb(53, 53, 53);
+}
+/* ::placeholder{
+    color: rgb(42, 138, 255);
+} */

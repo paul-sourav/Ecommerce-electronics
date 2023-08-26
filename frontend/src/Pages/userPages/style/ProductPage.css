@@ -1,0 +1,35 @@
+.search_product{
+   width: 100%;
+   text-align: center;
+}
+.search_product input{
+    width: 80%;
+    font-size: large;
+    text-align: center;
+    padding: 0.3rem 0;
+    border: none;
+    background-color:transparent;
+    color: rgb(52, 52, 52);
+    border-bottom:0.1rem solid rgb(30, 30, 30);
+}
+.search_product input:focus{ 
+    border: none;
+    border-bottom:0.2rem solid #333;
+    outline:none;
+    /* background-color: #ffffff43; */
+}
+.pagination-buttons{
+    background-color: white;
+    text-align: center;
+}
+.pagination-buttons .num-btn{
+    background-color: #333;
+    width: 25px;
+    height: 25px;
+    margin: 0.3rem;
+    color:white;
+}
+
+.pagination-buttons .num-btn:hover{
+    background-color: #00FA9A;
+}

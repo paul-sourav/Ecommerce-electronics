@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.cart{
+    display: flex;
+    min-height: 100vh;
+}
+.cart-table{
+    width: 80%;
+    background-color: white;
+    text-align: center;
+    margin-top: 1.5rem;
+    border-collapse: collapse;
+}
+.cart-table thead th{
+    font-family: 'Poppins';
+    padding: 0.8rem 0;
+    background-color: #23231e;
+    color:white;
+}
+.cart-table tbody td{
+    height:10vh;
+}
+.cart-table .description{
+     /* background-color: rgba(4, 4, 4, 0.034); */
+     border-bottom: 1px solid white; 
+}
+
+.cart-table .description button{
+    background-color:transparent;
+    font-size: large;
+    cursor: pointer;
+}
+.cart-table .description button:hover{
+    color: red;
+}
+/* .cart-table  tr:nth-child(even){background-color: #f2f2f2;}
+.cart-table  tr:nth-child(odd){background-color:rgb(255, 255, 255);} */
+.cart-table  tr:hover {background-color:rgb(231, 224, 224)}
+
+
+.cart .summery{
+    font-family: 'Poppins';
+    margin-top:1.5rem;
+    width: 20%;
+    padding:1rem;
+    height:80vh;
+    background-color: #23231e;
+    /* background: linear-gradient(180deg, rgba(18,181,123,1) 0%, rgba(23,227,155,1) 100%); */
+    color: white;
+    position:fixed;
+    right: 0;
+}
+.summery .price {
+    display: flex;
+    justify-content: space-between;
+  }
+.summery .price span{
+    font-weight:bold;
+    color: rgb(205, 255, 120);
+}
+.summery .price button{
+    background-color:#f9fd1d;
+    color: rgb(15, 15, 15);
+    font-size: large;
+    border-radius:0.2rem;
+    padding: 0 1.2rem;
+    margin-left: 1.5rem;
+    cursor: pointer;
+}
+.summery .price button:hover{
+    box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.342);
+}
+.orderBtn{
+    position: absolute;
+    bottom: 10%;
+}

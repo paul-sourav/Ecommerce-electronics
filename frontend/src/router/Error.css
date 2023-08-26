@@ -1,0 +1,25 @@
+.Error{
+    height: 100vh;
+    margin: auto;
+    color: rgb(250, 250, 250);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    background-image: url("../assets//not-founf.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.Error button{
+    background-color:black;
+    color: white;
+    width: 50%;
+    font-size: large;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+.Error button:hover{
+    background-color: rgba(0, 0, 0, 0.63);
+}

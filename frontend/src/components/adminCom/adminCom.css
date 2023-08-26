@@ -1,0 +1,32 @@
+.category-table{
+    width: 96%;
+    margin: auto;
+    margin-top: 1.2rem;
+    border-collapse: collapse;
+}
+
+.tablemenu{
+    text-align:center;
+    border-bottom: 2px solid rgb(237, 237, 237);
+}
+.tablemenu td{
+    padding:0.3rem;
+}
+.tablemenu .btn-edit{
+    background-color:#0fba5c;
+    padding:0.5rem 1.2rem;
+    margin: 0 0.2rem;
+    font-size: large;
+    color: white;
+    border-radius: 1.2rem;
+}
+.tablemenu .btn-del{
+    background-color: 	#FF4433;
+    padding:0.5rem 1.2rem;
+    font-size: large;
+    color: white;
+    border-radius: 1.2rem;
+}
+.btn-edit:hover,.btn-del:hover{
+    box-shadow: 0 0.2rem 0.3rem black;
+}

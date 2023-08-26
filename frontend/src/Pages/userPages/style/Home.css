@@ -1,0 +1,33 @@
+.homepage{
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.homepage-category{
+    width:24%;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    padding: 0.3rem;
+    margin: 0 0.2rem;
+    background-color: #dbdbdb;
+}
+.homepage-category img{
+    width:100%;
+}
+.homepage-category h4{
+    position:absolute;
+    bottom:10px;
+    left: 30%;
+    color: #4b4b4b;
+    font-weight:lighter;
+    text-transform: capitalize;
+}
+
+@media only screen and (max-width:859px){
+    .homepage-category{
+        width: 48%;
+        margin: 0.2rem;
+    }
+}

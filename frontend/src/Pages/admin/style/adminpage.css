@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lunasima&display=swap');
+.container{
+    background-color: white;
+    width: 100%;
+    min-height:90vh;
+    height:auto;
+    display: flex;
+    font-family: 'Lunasima', sans-serif;
+}
+.box2{
+    width:85%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.box3{
+    width: 100%;
+    text-align: center;
+}
+.box3 form input{
+    width: 80%;
+    border-bottom: 0.1rem solid black;
+    font-size: large;
+    padding:0.8rem;
+}
+.box4{
+    display: flex;
+    justify-content:center;
+    margin-top: 1.2rem;
+    flex-wrap: wrap;
+}
+.box4 .main{
+    box-sizing: border-box;
+    margin:0.3rem;
+    position: relative;
+    width:18rem;
+    background-color: white;
+    height: 22rem;
+    border-radius: 0.8rem;
+    text-align:center;
+    overflow:hidden;
+    cursor: pointer;
+}
+.box4 .main:hover{
+    box-shadow: 0.2rem 0.3rem 0.5rem rgba(69, 69, 69, 0.804);
+}
+.box4 .main img{
+    width: 100%;
+    height: 65%;
+}
+.box4 .main:hover img{
+
+    transform:scale3d(1.2, 1.2, 1.3);
+}
+.box4 .main .btn{
+    position:absolute;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+}
+.main .btn button{
+    width: 50% ;
+}
+.box4 .main button{
+    background-color: rgb(33, 33, 33);
+    color: rgb(205, 255, 120);
+    width: 100%;
+    font-size: large;
+    text-align: center;
+    border-radius: 0  0  0.8rem 0.8rem;
+    padding:0.5rem 0.2rem;
+    cursor: pointer;
+}
+.box4 .main button:hover{
+    background-color:rgb(71, 118, 118);
+}
+
+
+.admin-menu{
+    border: 1px ;
+    background-color:#12B57B;
+    color: rgb(146, 253, 173);
+    width:15%;
+}
+.admin-menu nav{
+    display:flex;
+    flex-direction:column;
+}
+.admin-menu nav a{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding:0.5rem 1.6rem;
+
+}
+
+.activemenu{
+    background-color: rgb(146, 253, 173);
+    color:rgb(255, 255, 255);
+}
+.category{
+    width:85%;
+    text-align: center;
+}
+.category form{
+    box-shadow: 0.1rem 0.2rem 0.5rem rgba(0, 0, 0, 0.324);
+    border-radius: 1.2rem;
+    width:80%;
+    margin: auto;
+    margin-top:1.2rem;
+    padding:0.5rem;
+}
+.category form input{
+    width:100%;
+    font-size: large;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(7, 7, 7);
+    padding: 0.8rem;
+    border-radius: 0.3rem;
+    margin: 0.5rem 0;
+}
+.category form input:focus{
+    background-color:rgba(207, 235, 254, 0.489);
+    outline:none;
+}
+.category form button{
+    font-size:17px;
+    width: 50%;
+    padding:0.8rem 1.4rem;
+    border-radius: 1.4rem;
+    background-color:#0F52BA;
+    color:white;
+}
+.category form button:hover{
+    background-color: #191970;
+    color: white;
+}
+
+.update-compo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.664);
+    width: 80%;
+    height:80vh;
+    top:10%;
+    border-radius: 1.2rem;
+    z-index: 100;
+}
+.update-compo form{
+    background-color: white;
+    position: absolute;
+}
+.update-compo .cross{
+ color: rgb(255, 255, 255);
+ position: relative;
+ font-weight: bold;
+ cursor: pointer;
+ top:-40%;
+}
+.update-compo .cross:hover{
+    color:#ba310f;
+}

@@ -1,0 +1,47 @@
+
+.navbar{
+    background-color: white;
+    width: 100%;
+    position: relative;
+    z-index:100;
+    display: flex;
+    align-items: center;
+    padding: 0 0.5rem;
+    justify-content: space-between;
+    box-shadow: 0 0.3rem  0.5rem rgba(0, 0, 0, 0.354);
+}
+.active{
+    box-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.342);
+}
+.pending{
+    background-color: bisque;
+}
+.navbar nav ul {
+ display: flex;
+}
+nav ul li{
+ padding:1rem;
+ margin: 0;
+}
+nav ul li:hover{
+    background-color: ghostwhite
+}
+.navbar .logo img{
+    width: 100px;
+    /* border: 1px solid rgb(133, 64, 64); */
+}
+.cartitem{
+    position: relative;
+}
+.cartBadge{
+    background-color:#e7243b;
+    position:absolute;
+    top:50%;
+    left:-3%;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-radius:1.2rem;
+    width:1.5rem;
+    height:1.5rem;
+}
